@@ -1,14 +1,17 @@
 # 📄 PDF Simples
 
-Um conversor de PDF simples, prático e intuitivo, especialmente projetado para idosos. Sem complicações, sem login, direto ao ponto!
+Um conversor de PDF **profissional**, simples e intuitivo, especialmente projetado para idosos e pessoas que valorizam simplicidade. Sem complicações, sem login, direto ao ponto!
 
-## ✨ Características
+## ✨ Características Principais
 
-- **Interface Simples**: Botões grandes, texto legível, navegação intuitiva
-- **Sem Login**: Use imediatamente, sem cadastros ou complicações
-- **Conversão Rápida**: Converte imagens, textos e documentos para PDF
-- **Fácil Compartilhamento**: Salve ou compartilhe seus PDFs diretamente
-- **Design Acessível**: Pensado especialmente para idosos
+- **🎯 Interface Ultra Simples**: Botões grandes, texto legível, navegação intuitiva
+- **🚀 Sem Login**: Use imediatamente, sem cadastros ou complicações
+- **⚡ Conversão Instantânea**: Converte imagens, textos e documentos para PDF
+- **📱 100% Responsivo**: Funciona perfeitamente em qualquer dispositivo
+- **♿ Design Acessível**: Especialmente pensado para idosos e acessibilidade
+- **🔒 Totalmente Privado**: Seus arquivos não saem do seu dispositivo
+- **🌐 Multiplataforma**: Android, iOS e Web
+- **🎨 Interface Moderna**: Visual limpo e profissional
 
 ## 🚀 Funcionalidades
 
@@ -119,6 +122,18 @@ O app está configurado e pronto para:
 
 Este é um app simples e funcional, perfeito para quem precisa converter arquivos para PDF de forma rápida e descomplicada!
 
+## 👨‍💻 Desenvolvedor
+
+Este projeto foi desenvolvido com ❤️ por **Gabriel Ferreira**.
+
+- 🔗 LinkedIn: [linkedin.com/in/devferreirag](https://linkedin.com/in/devferreirag)
+- 🌟 Open Source e gratuito para sempre
+- 💝 Contribuições são bem-vindas!
+
+## 📄 Licença
+
+Este projeto é **open source** e está disponível sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
+
 ---
 
-**PDF Simples** - Conversão de PDF sem complicação! 🎉
+**PDF Simples** - Conversão profissional de PDF sem complicação! 🎉
