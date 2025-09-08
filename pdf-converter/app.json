@@ -1,0 +1,122 @@
+{
+  "expo": {
+    "name": "PDF Simples",
+    "slug": "pdf-simples",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "description": "Conversor de PDF profissional, simples e intuitivo. Especialmente projetado para facilidade de uso, sem complicações ou cadastros.",
+    "keywords": ["pdf", "conversor", "simples", "fácil", "idosos", "acessível"],
+    "author": "Gabriel Ferreira (linkedin.com/in/devferreirag)",
+    "githubUrl": "https://github.com/devferreirag",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f8f9fa"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pdfsimples.app",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSDocumentPickerUsageDescription": "Este app precisa acessar seus arquivos para convertê-los em PDF.",
+        "NSPhotoLibraryUsageDescription": "Este app precisa acessar suas fotos para convertê-las em PDF.",
+        "UISupportsDocumentBrowser": true,
+        "CFBundleDocumentTypes": [
+          {
+            "CFBundleTypeName": "Todos os arquivos",
+            "LSHandlerRank": "Alternate",
+            "LSItemContentTypes": ["public.item"]
+          }
+        ]
+      },
+      "associatedDomains": ["applinks:pdfsimples.app"],
+      "requireFullScreen": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#f8f9fa"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.pdfsimples.app",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 21,
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_DOCUMENTS"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["DEFAULT", "BROWSABLE"],
+          "data": [
+            {
+              "mimeType": "image/*"
+            },
+            {
+              "mimeType": "text/*"
+            },
+            {
+              "mimeType": "application/pdf"
+            }
+          ]
+        }
+      ],
+      "allowBackup": true,
+      "networkSecurityConfig": {
+        "cleartextTrafficPermitted": true
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "PDF Simples - Conversor Online",
+      "shortName": "PDF Simples",
+      "lang": "pt-BR",
+      "scope": "/",
+      "themeColor": "#3498db",
+      "backgroundColor": "#f8f9fa",
+      "display": "standalone",
+      "orientation": "portrait",
+      "startUrl": "/",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-document-picker",
+      "expo-file-system",
+      "expo-print",
+      "expo-sharing",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          },
+          "ios": {
+            "flipper": false
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "pdf-simples-app"
+      }
+    }
+  }
+}
